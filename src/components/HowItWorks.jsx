@@ -65,27 +65,27 @@ export default function HowItWorks({ onRequestPilot }) {
   ];
 
   return (
-    <section id="how-it-works" className="py-24 bg-slate-950 text-white relative overflow-hidden">
+    <section id="how-it-works" className="py-14 sm:py-16 bg-slate-950 text-white relative overflow-hidden">
       {/* Subtle grid background */}
       <div className="absolute inset-0 subtle-grid opacity-20 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Heading */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-950/80 text-cyan-300 border border-cyan-800/80 mb-3">
             <span>STRUCTURED PROCESS</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
             From Enquiry to Completed Workflow
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed">
+          <p className="mt-3 text-base sm:text-lg text-slate-300 leading-relaxed">
             ReceptionAI coordinates customer interactions, operational intelligence and existing business systems through a structured AI workflow.
           </p>
         </div>
 
         {/* Desktop Process Display: Interactive Stepper & Pipeline */}
-        <div className="hidden lg:block mb-12">
+        <div className="hidden lg:block mb-8">
           {/* Step numbers navigation bar */}
           <div className="grid grid-cols-6 gap-3 mb-8 relative">
             <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-slate-800 -translate-y-1/2 z-0" />
@@ -209,7 +209,7 @@ export default function HowItWorks({ onRequestPilot }) {
         </div>
 
         {/* Bottom CTA bar */}
-        <div className="mt-12 text-center">
+        <div className="mt-8 text-center">
           <button
             onClick={onRequestPilot}
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 text-white font-semibold text-xs uppercase tracking-wider shadow-md shadow-cyan-600/20"

@@ -28,14 +28,14 @@ export default function Footer({ onRequestPilot }) {
   };
 
   return (
-    <footer className="bg-slate-950 text-white border-t border-slate-850 pt-16 pb-12 relative overflow-hidden">
+    <footer className="bg-slate-950 text-white border-t border-slate-850 pt-10 pb-8 relative overflow-hidden">
       {/* Background ambient lighting */}
       <div className="absolute top-0 right-1/3 w-80 h-80 bg-cyan-600/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Top Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-slate-800">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 pb-8 border-b border-slate-800">
           
           {/* Brand Info & Tagline */}
           <div className="lg:col-span-5 space-y-4">

@@ -53,11 +53,11 @@ export default function FAQ({ onRequestPilot }) {
   };
 
   return (
-    <section id="faq" className="py-24 bg-white text-slate-900 border-b border-slate-100">
+    <section id="faq" className="py-14 sm:py-16 bg-white text-slate-900 border-b border-slate-100">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Heading */}
-        <div className="text-center max-w-2xl mx-auto mb-16">
+        <div className="text-center max-w-2xl mx-auto mb-10">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-50 text-cyan-800 border border-cyan-200 mb-3">
             <HelpCircle className="w-3.5 h-3.5 text-cyan-600" />
             <span>COMMON QUESTIONS</span>
@@ -65,7 +65,7 @@ export default function FAQ({ onRequestPilot }) {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
             Frequently Asked Questions
           </h2>
-          <p className="mt-4 text-base text-slate-600">
+          <p className="mt-3 text-base text-slate-600">
             Everything you need to know about ReceptionAI's micro-workflow automation architecture and pilot deployment.
           </p>
         </div>
@@ -113,7 +113,7 @@ export default function FAQ({ onRequestPilot }) {
         </div>
 
         {/* Bottom CTA within FAQ */}
-        <div className="mt-12 text-center p-6 rounded-2xl bg-slate-50 border border-slate-200">
+        <div className="mt-8 text-center p-6 rounded-2xl bg-slate-50 border border-slate-200">
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1">
             Have a specific HMS/PMS integration requirement?
           </p>

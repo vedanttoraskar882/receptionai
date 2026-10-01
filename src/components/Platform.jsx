@@ -147,7 +147,7 @@ export default function Platform({ onRequestPilot }) {
   ];
 
   return (
-    <section id="platform" className="py-24 bg-slate-900 text-white relative overflow-hidden">
+    <section id="platform" className="py-14 sm:py-16 bg-slate-900 text-white relative overflow-hidden">
       {/* Background gradients */}
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
@@ -155,7 +155,7 @@ export default function Platform({ onRequestPilot }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-950/80 text-cyan-300 border border-cyan-800/80 mb-3">
             <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
             <span>THE PLATFORM</span>
@@ -163,13 +163,13 @@ export default function Platform({ onRequestPilot }) {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
             One Intelligent Layer. Multiple Reception Workflows.
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed">
+          <p className="mt-3 text-base sm:text-lg text-slate-300 leading-relaxed">
             ReceptionAI brings customer communication, workflow automation, operational intelligence and business-system integrations together within one AI-powered reception platform.
           </p>
         </div>
 
         {/* 6 Primary Product Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7 mb-10">
           {primaryModules.map((mod) => {
             const Icon = mod.icon;
             return (
@@ -226,10 +226,10 @@ export default function Platform({ onRequestPilot }) {
         </div>
 
         {/* ADVANCED INTELLIGENCE LAYER */}
-        <div className="rounded-3xl bg-slate-950/80 border border-slate-800 p-8 sm:p-12 relative overflow-hidden">
+        <div className="rounded-3xl bg-slate-950/80 border border-slate-800 p-6 sm:p-9 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-80 h-80 bg-teal-500/10 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="max-w-2xl mb-10">
+          <div className="max-w-2xl mb-7">
             <span className="text-xs font-semibold text-teal-400 tracking-wider uppercase">
               DEEP ARCHITECTURE
             </span>

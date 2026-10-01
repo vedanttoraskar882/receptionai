@@ -71,24 +71,24 @@ export default function Pricing({ onRequestPilot }) {
   ];
 
   return (
-    <section id="pricing" className="py-24 bg-slate-50 text-slate-900 border-b border-slate-200">
+    <section id="pricing" className="py-14 sm:py-16 bg-slate-50 text-slate-900 border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Heading */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-800 border border-blue-200 mb-3">
             <span>TRANSPARENT UK SME PRICING</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight">
             Market Pricing
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
+          <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed">
             Accessible front-desk intelligence engineered for small and mid-sized healthcare and hospitality providers.
           </p>
         </div>
 
         {/* 3 Critical Pricing Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-14 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8 items-stretch">
           {plans.map((plan) => (
             <div
               key={plan.name}
@@ -177,8 +177,8 @@ export default function Pricing({ onRequestPilot }) {
         </div>
 
         {/* ADDITIONAL COMMERCIAL DETAILS */}
-        <div className="mb-20 p-6 sm:p-8 rounded-2xl bg-white border border-slate-200 shadow-sm">
-          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-500 mb-4">
+        <div className="mb-8 p-6 sm:p-7 rounded-2xl bg-white border border-slate-200 shadow-sm">
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">
             <Layers className="w-4 h-4 text-cyan-600" />
             <span>Additional Commercial Details</span>
           </div>
@@ -209,9 +209,9 @@ export default function Pricing({ onRequestPilot }) {
         </div>
 
         {/* PILOT / TRACTION SUPPORTING SECTION */}
-        <div className="p-8 sm:p-10 rounded-3xl bg-slate-900 text-white shadow-xl relative overflow-hidden">
-          <div className="max-w-3xl mb-8">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-slate-800 text-cyan-400 border border-slate-700 mb-3">
+        <div className="p-6 sm:p-8 rounded-3xl bg-slate-900 text-white shadow-xl relative overflow-hidden">
+          <div className="max-w-3xl mb-6">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-slate-800 text-cyan-400 border border-slate-700 mb-2.5">
               <ShieldCheck className="w-3.5 h-3.5" />
               <span>Pilot Evidence Strip</span>
             </div>

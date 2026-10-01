@@ -12,7 +12,7 @@ export default function Hero({ onRequestPilot }) {
   };
 
   return (
-    <section id="home" className="relative min-h-screen pt-28 pb-20 md:pt-36 md:pb-28 overflow-hidden bg-slate-950 text-white flex items-center">
+    <section id="home" className="relative pt-24 pb-12 md:pt-28 md:pb-14 overflow-hidden bg-slate-950 text-white flex items-center">
       {/* Background Animated Gradient Shapes and Subtle Grid */}
       <div className="absolute inset-0 subtle-grid opacity-30 pointer-events-none" />
       
